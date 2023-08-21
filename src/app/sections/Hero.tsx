@@ -20,7 +20,7 @@ export default function Hero() {
           Gaia Consortium
         </h1>
         <p>
-          We're a group of science and tech organizations collaborating to create a universal system for decentralized
+          We&apos;re a group of science and tech organizations collaborating to create a universal system for decentralized
           planetary-scale modeling, decision-making, and automation. Our goal is to help humanity address 21st-century
           challenges like climate change and AI alignment, fostering a positive future for our planet.
         </p>
