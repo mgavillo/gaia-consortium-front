@@ -20,11 +20,11 @@ export default function Quote() {
       </p> */}
       <div className="flex flex-col text-base xl:text-4xl font-medium gap-4">
         <div className="flex flex-col xl:flex-row items-center justify-center gap-1 lg:gap-4 ">
-          <p className="w-[700px] text-center xl:text-right text-neutral-600">Rather than projecting</p>
+          <p className="w-[700px] text-center xl:text-right text-slate-600 italic font-serif">Rather than projecting</p>
           <p className="w-[700px] text-center xl:text-left text-2xl lg:text-4xl font-black"> what people want onto the world</p>
         </div>
         <div className="flex flex-col xl:flex-row items-center justify-center gap-1 lg:gap-4 ">
-          <p className="w-[700px] text-center xl:text-right text-neutral-600">We might look for ways to listen in to</p>
+          <p className="w-[700px] text-center xl:text-right text-slate-600 italic font-serif">We might look for ways to listen in to</p>
           <p className=" w-[700px] text-center xl:text-left text-2xl lg:text-4xl font-black "> what the world is calling for.</p>
         </div>
       </div>
