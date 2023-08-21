@@ -1,11 +1,11 @@
-"use client"
+"use client";
 
 import Button from "@/components/Button";
 import Image from "next/image";
 import EmailForm from "@/components/EmailForm";
 import { OrSeparator } from "@/components/Separator";
 import { useEffect, useState } from "react";
-import Bg02 from "../../../public/bg02.svg"
+import Bg02 from "../../../public/bg02.svg";
 export default function CTA() {
   const [isMobile, setIsMobile] = useState<boolean>(typeof window !== "undefined" && window.innerWidth <= 767.98);
 
@@ -31,7 +31,7 @@ export default function CTA() {
           <EmailForm />
         </div>
         <span className="h-1 w-full md:w-2 md:h-56 relative">
-            <div  className=" bg-gradient-radial from-skyBlue to-darkBlue  w-[800px] h-56 rounded-full absolute -ml-[400px] blur-[400px] opacity-25 -z-40"/>
+          <div className="bg-gradient-radial from-skyBlue to-darkBlue w-[800px] h-56 rounded-full absolute -ml-[200px] md:-ml-[400px] -mt-[100px] md:mt-0 blur-[400px] opacity-25 -z-40" />
           <OrSeparator orientation={isMobile ? "vertical" : "horizontal"} />
         </span>
         <div className="w-full h-56 flex flex-col items-start justify-center rounded-md p-8 gap-6 bg-slate-800 border border-gray-800 bg-opacity-30 min-w-[330px]">
@@ -42,7 +42,6 @@ export default function CTA() {
           </div>
         </div>
       </div>
-            {/* <Image src={Bg02} alt="" className="absolute  z-50 inset-0 -mt-96 scale-y-50"/> */}
     </section>
   );
 }
