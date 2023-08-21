@@ -7,22 +7,22 @@ import Image from "next/image";
 const principles = [
   {
     title: "Interpretability",
-    body: "Denotes the creation of intelligible, open-source solutions, cultivating transparency in insights and empowering well-informed actions",
+    body: "We create intelligible, open systems that empower users to make sense of the world and make well-informed decisions.",
     icon: interoperability,
   },
   {
     title: "Alignment",
-    body: "Ensuring coherence and agreement among multifaceted elements, fostering synergy to address complex, interrelated issues collectively.",
+    body: "Our systems embed an awareness of planetary boundaries and the deep fabric of interconnectedness that underpins the survival of our species and biosphere.",
     icon: alignement,
   },
   {
-    title: "Anchoring",
-    body: "Tethering to real-world data, grounding them in tangible context for accurate, relevant, and reliable outcomes.",
+    title: "Grounding",
+    body: "Our systems are anchored in real-world data and tangible context, ensuring accurate, relevant, and reliable outcomes.",
     icon: anchoring,
   },
   {
     title: "Interoperability",
-    body: "Enabling AI models to seamlessly collaborate, exchange information, and collectively enhance performance through compatible interactions.",
+    body: "Our systems seamlessly collaborate, exchange information and discover each other, achieving exponentially more useful outcomes through shared protocols.",
     icon: interpretability,
   },
 ];
