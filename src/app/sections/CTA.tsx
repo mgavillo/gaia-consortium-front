@@ -31,7 +31,7 @@ export default function CTA() {
           <EmailForm />
         </div>
         <span className="h-1 w-full md:w-2 md:h-56 relative">
-          <div className="bg-gradient-radial from-skyBlue to-darkBlue w-[800px] h-56 rounded-full absolute -ml-[200px] md:-ml-[400px] -mt-[100px] md:mt-0 blur-[400px] opacity-25 -z-40" />
+          <div className="bg-gradient-radial from-skyBlue to-darkBlue w-[800px] h-56 rounded-full absolute -ml-[200px] md:-ml-[400px] -mt-[100px] md:mt-0 blur-[400px] opacity-[15%] -z-40" />
           <OrSeparator orientation={isMobile ? "vertical" : "horizontal"} />
         </span>
         <div className="w-full h-56 flex flex-col items-start justify-center rounded-md p-8 gap-6 bg-slate-800 border border-gray-800 bg-opacity-30 min-w-[330px]">
