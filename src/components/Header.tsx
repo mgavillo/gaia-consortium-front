@@ -1,10 +1,12 @@
 "use client";
 import { useEffect, useRef, useState } from "react";
-import EmailForm from "./EmailForm";
+// import EmailForm from "./EmailForm";
+import Button from "./Button";
 export default function Header() {
   const [isHamburgerOpen, setIsHamburgerOpen] = useState<boolean>(false);
 
   function onLinkClick(e: React.MouseEvent, target: string) {
+    console.log("LINK CLICKED")
     let el = document.getElementById(target);
     e.preventDefault(); // Stop Page Reloading
     if (!el) return;
@@ -42,8 +44,10 @@ export default function Header() {
             Principles
           </a>
         </div>
-        <div className=" w-96 font-normal text-base hidden lg:flex">
-          <EmailForm />
+        <div className=" w-96 font-normal text-base hidden lg:flex justify-end">
+          <a href="https://forms.gle/hR4zdNmVaYD7EXZQ9" target="_blank">
+            <Button text="Get Involved" />
+          </a>
         </div>
       </div>
       {isHamburgerOpen && (
@@ -88,7 +92,9 @@ export default function Header() {
             </a>
           </div>
           <span className="font-normal w-full">
-            <EmailForm orientation="vertical" />
+            <a href="https://forms.gle/hR4zdNmVaYD7EXZQ9" target="_blank">
+              <Button text="Get Involved" />
+            </a>
           </span>
         </div>
       )}
