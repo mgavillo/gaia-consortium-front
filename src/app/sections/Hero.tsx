@@ -4,7 +4,6 @@ import hologram from "../../../public/holograms.svg";
 import holograms from "../../../public/hologramss.svg";
 import Image from "next/image";
 import Partners from "./Partners";
-import GoogleForm from "@/components/GoogleForm";
 import Button from "@/components/Button";
 
 export default function Hero() {
