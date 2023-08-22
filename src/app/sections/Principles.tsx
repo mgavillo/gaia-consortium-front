@@ -46,8 +46,8 @@ function Principle({ element }: { element: { title: string; body: string; icon: 
 
 export default function Principles() {
   return (
-    <section id="Principles" className="">
-      <h2>Core principles</h2>
+    <section id="Principles" className="md:py-24">
+      <h2 className="w-full text-center">Core principles</h2>
       <div className="flex flex-row gap-8 flex-wrap items-center justify-center">
         {principles.map((e, i) => (
           <Principle key={i} element={e} />

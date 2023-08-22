@@ -1,13 +1,13 @@
 export default function Quote() {
   return (
-    <section className="py-24 flex flex-col gap-16">
+    <section className="md:p-24 flex flex-col gap-4">
       {/* <span className=" -mb-12 ">
         <BiSolidQuoteAltRight
           size={100}
           className={"bg-gradient-to-tr from-lightBlue to-darkBlue text-transparent bg-clip-text"}
         />
       </span> */}
-      <p className="w-full font-black text-2xl lg:text-6xl text-center">
+      <p className="w-full font-black text-2xl xl:text-4xl text-center">
         We might find ways to ground human decision-making in the basic evolutionary unfolding of the world.
       </p>
       {/* <p className=" w-full font-bold text-8xl">
@@ -28,6 +28,7 @@ export default function Quote() {
           <p className=" w-[700px] text-center xl:text-left text-2xl lg:text-4xl font-black "> what the world is calling for.</p>
         </div>
       </div>
+      <h3 className="w-full text-right pt-16 bg-gradient-to-tr via-skyBlue from-darkBlue to-lightBlue text-transparent bg-clip-text opacity-90">- Frederic Laloux</h3>
     </section>
   );
 }
