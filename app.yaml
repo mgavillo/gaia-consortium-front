@@ -1,5 +1,5 @@
 
-runtime: nodejs14
+runtime: nodejs18
 
 env_variables:
   NEXT_PUBLIC_API_URL: "https://api.example.com"  # Your environment variables
